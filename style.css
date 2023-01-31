@@ -1,10 +1,20 @@
 .container {
     display: grid;
     grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(1, 175px);
     justify-content: center;
     grid-gap: 10px;
     max-width: 1200px;
     margin: auto;
+}
+
+h4,
+p {
+    margin: 5px 0px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .card1,
@@ -18,10 +28,16 @@
 }
 
 img {
-    width: 100px;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
 }
 
 .img-desc {
     display: flex;
     justify-content: space-evenly;
+}
+
+.img-desc div {
+    padding: 10px;
 }
